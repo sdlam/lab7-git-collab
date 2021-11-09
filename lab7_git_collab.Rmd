@@ -4,7 +4,6 @@ author: "Sarah Lam"
 date: "11/9/2021"
 output: html_document
 ---
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
@@ -15,7 +14,7 @@ Hi! Jack! <3
 Hey girl <345
 
 ```{r task 1}
-plot(cars)
+mean_value <- mean(cars$dist)
 ```
 
 
